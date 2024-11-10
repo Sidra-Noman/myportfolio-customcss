@@ -1,6 +1,5 @@
 'use client';  // to use AOS
 import React, { useEffect } from 'react'
-import Image from "next/image";
 
 import Header from "./components/Header/Header";
 import Footer from"./components/Footer/Footer";
@@ -13,7 +12,7 @@ import AOS from "aos"
 import"aos/dist/aos.css";
 
 
-const home = () => {
+const Home = () => {
   useEffect(() =>{
     AOS.init({
       easing:"ease-out-back",
@@ -39,5 +38,5 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
 
