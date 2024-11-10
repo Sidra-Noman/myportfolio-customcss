@@ -1,0 +1,88 @@
+/* styles/Hero.module.css */
+
+.hero {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/images/profilepic.png');
+    background-position: left 100px top 200px;
+    background-size: 25%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    height: calc(100vh - 60px);
+  }
+
+  .container {
+    width: 100%;
+}
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+  
+  .container-lg {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .hidden-lg {
+    display: none;
+  }
+  
+  .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    color: #1E3A8A; /* Equivalent to text-blue-950 */
+    @media (min-width: 1024px) {
+      .lg\:items-start {
+          align-items: flex-start;
+          text-align: center;
+      }
+  }
+  @media (min-width: 1024px) {
+    .lg\:text-left {
+        text-align: left;
+    }
+}
+
+  }
+  
+  .textContainer-lg {
+    align-items:flex-end;
+    text-align:left ;
+    margin-left: 400px;
+  }
+  
+  .text {
+    padding-top: 4rem; /* pt-16 */
+    font-size: 2.5rem; /* text-4xl */
+    font-weight: bold;
+    line-height: 1.25rem;
+
+  }
+  
+  .text-sm {
+    font-size: 3rem; /* sm:text-5xl */
+  }
+  
+  .text-md {
+    font-size: 3.75rem; /* md:text-6xl */
+  }
+  
+  .text-lg {
+    font-size: 4.5rem; /* lg:text-7xl */
+  }
+  

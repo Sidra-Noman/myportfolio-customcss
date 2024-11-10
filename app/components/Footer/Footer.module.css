@@ -1,0 +1,29 @@
+
+
+.footer {
+    background-color: #1a202c; 
+    color: white; 
+    text-align: center;
+    /* margin-top: 500px;  */
+    padding:12px ; 
+  }
+  
+  .copyright {
+    margin-bottom: 1rem; 
+  }
+  
+  .iconContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; 
+  }
+  
+  .iconList-sm {
+    gap: 1.5rem; 
+  }

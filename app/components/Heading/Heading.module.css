@@ -1,0 +1,12 @@
+/* Heading.module.css */
+.headingContainer {
+    text-align: center;
+    font-size: 2.5rem; /* equivalent to text-4xl */
+    padding-bottom: 2rem; /* equivalent to pb-8 */
+}
+
+.headingTitle {
+    display: inline-block;
+    padding-bottom: 0.5rem; /* equivalent to pb-2 */
+    border-bottom: 4px solid black; /* border-b-4 */
+}

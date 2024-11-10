@@ -1,0 +1,75 @@
+/* Contact.module.css */
+
+.container {
+    padding-top: 8rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .gridContainer {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    color: #4a5568;
+    font-size: 1.125rem;
+    padding-top: 0.5rem;
+  }
+  
+  .contactItem {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .formField {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  
+  .input,
+  .textarea {
+    height: 40px;
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    resize: none;
+  }
+  
+  .textarea {
+    height: auto;
+  }
+  
+  .button {
+    background-color: #475569;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #2d3748;
+  }
+  

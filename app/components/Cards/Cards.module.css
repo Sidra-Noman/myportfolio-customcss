@@ -1,0 +1,48 @@
+/* Cards.module.css */
+
+.cardContainer {
+    border: 1px solid black; /* Equivalent to border-accent */
+    width: 300px;
+  }
+  
+  .cardContainerSm {
+    width: 350px; /* Responsive width for sm screens */
+  }
+  
+  .cardContent {
+    padding: 1rem; /* Equivalent to p-4 */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Equivalent to space-y-4 */
+  }
+  
+  .cardTitle {
+    font-size: 2.25rem; /* Equivalent to text-4xl */
+    font-weight: 200; /* Equivalent to font-extralight */
+  }
+  
+  .cardDescription {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .tags {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background-color: #f0f0f0;
+    color:white;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
+  }
+  .tags{
+    background-color:purple ;
+    margin-right:0.5rem ;
+    margin-top: 0.5rem;
+    padding:3px 10px ;
+    display:inline-block ;
+    font-size: 12px;
+
+}
+.tags:last-child{
+    margin-right: 0;
+}
